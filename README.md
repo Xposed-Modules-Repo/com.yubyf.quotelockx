@@ -19,11 +19,11 @@ archived.
 
 | Lockscreen | AmbientDisplay |
 | :---: | :---: |
-| <img src="screenshots/lockscreen.png" title="Lockscreen" width="360px" /> | <img src="screenshots/ambient_display.png" title="AmbientDisplay" width="360px" /> |
+| <img src="https://github.com/Xposed-Modules-Repo/com.yubyf.quotelockx/blob/main/screenshots/lockscreen.png?raw=true" title="Lockscreen" width="360px" /> | <img src="https://github.com/Xposed-Modules-Repo/com.yubyf.quotelockx/raw/main/screenshots/ambient_display.png" title="AmbientDisplay" width="360px" /> |
 
 Long press on the quotes to show refresh and collect buttons:
 
-<img src="screenshots/showcase.webp" width="300px" />
+<img src="https://github.com/Xposed-Modules-Repo/com.yubyf.quotelockx/raw/main/screenshots/showcase.webp" width="300px" />
 
 ## Notice
 
