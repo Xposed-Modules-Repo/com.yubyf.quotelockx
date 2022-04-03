@@ -56,11 +56,12 @@ the download service.
 
 ### Todo
 
-- [ ] Add xml export format.
+- [ ] Add widget for launcher.
 
 ### In Progress
 
 - [ ] Add support for fortune-mod.
+- [ ] Add xml export format.
 
 ### Done
 
