@@ -1,126 +1,81 @@
-# Xposed Modules Repo Example
+# QuoteLockX
 
-You may only upload your own modules. If you have explicit permission from a developer to upload their module, it is fine as well, but both of you need to keep in mind that the uploader's name will be mentioned as author.
-Obviously, modules must be compliant with the law and must not act in malicious ways. The operator of this site will not take any responsibility (or give support) for uploaded modules.
+Displays quotes on your lockscreen, because why not.
 
-Only default branches will be processed.
+This new fork will be continuously maintained as the
+original [QuoteLock](https://github.com/apsun/QuoteLock) is no longer maintained and has been
+archived.
 
-## Informations
+## Features
 
-### Module name *
+- Displays quotes on your lockscreen, because why not.
+- Customizes the quotes style.
+- Collects your favorite quotes.
+- Records the quote history that you can always look up old entries.
+- Backup and restore collections on local and remote(Google Drive).
+- Displays quotes on the AmbientDisplay page of *OnePlus7Pro OOS11* (**UNSTABLE**)
 
-The Description of repository details.
+## Screenshots
 
-### Package *
+| Lockscreen | AmbientDisplay |
+| :---: | :---: |
+| <img src="screenshots/lockscreen.png" title="Lockscreen" width="360px" /> | <img src="screenshots/ambient_display.png" title="AmbientDisplay" width="360px" /> |
 
-The repository name.
+Long press on the quotes to show refresh and collect buttons:
 
-> The package name of the app - has to be the same for all versions!
+<img src="screenshots/showcase.webp" width="300px" />
 
-### Summary
+## Notice
 
-Contents in [SUMMARY](SUMMARY) file.
+**Only near-AOSP Android ROMs are supported!** This is due to the heavy lockscreen modifications
+made by different OEMs.
 
-> A brief description of the module, will be displayed outside the list, no formatting is supported.
-> Leave blank to use trimmed value of full text as the summary.
+**After installing, please open the app at least once** to allow the quote downloader service to run
+in the background.
 
-### Description *
+**Make sure to whitelist QuoteLockX if you are using a task-killer app!** They can interfere with
+the download service.
 
-Contents in [README.md](README.md) file.
+## Requirements
 
-### Support/Discussion URL *
+- A rooted phone running Android 5.0 or above
+- Xposed framework
 
-The Website of repository details.
+## Providers
 
-> Link to a site where users can get support for and discuss about your module. (e.g. your XDA thread)
+- [Hitokoto CN (中文)](http://hitokoto.cn/)
+- [Wikiquote QotD (中文)](https://www.wikiquote.org/)
+- [Jinrishici 今日诗词 (中文)](https://www.jinrishici.com/)
+- [Freakuotes (Español)](https://freakuotes.com/)
+- [Natune.net (Deutsch)](https://natune.net/zitate/)
+- [BrainyQuote (English)](https://www.brainyquote.com/)
+- Custom (write your own!)
+- Collections (your favorites)
 
-### Source code URL
+## TODO
 
-Contents in [SOURCE_URL](SOURCE_URL) file, any line breaks (\r & \n) will disappear.
+### Todo
 
-> Link to the source code of your module if you published it.
+- [ ] Add xml export format.
 
-### Additional authors
+### In Progress
 
-Json in [ADDITIONAL_AUTHORS](ADDITIONAL_AUTHORS) file.
+- [ ] Add support for fortune-mod.
 
-|  Field  |  Type  |  Description  |  Optional  |
-|  ----  |  ----  |  ----  |  ----  |
-| `type`  | String |  "add" or "remove"  |  No  |
-| `name`  | String |  The name of author  |  No  |
-| `link`  | String |  The link of author  |  Yes  |
+### Done
 
-Example: 
-```json
-[{
-	"type": "add",
-	"name": "exampleAuthorA",
-	"link": "http://example.author/A/user/link"
-}, {
-	"type": "add",
-	"name": "exampleAuthorB",
-	"link": "http://example.author/B/user/link"
-}, {
-	"type": "add",
-	"name": "exampleAuthorC"
-}, {
-	"type": "remove",
-	"name": "someoneInContributorsWillRemove"
-}]
-```
+- [x] Providers updates
+- [x] Jirishici(今日诗词) source
+- [x] Backup and restore on local and remote(Google Drive)
+- [x] Refresh and collection feature on lockscreen
+- [x] Font family and style support
+- [x] Adaptation for the AmbientDisplay page of *OnePlus7Pro OOS11* (**UNSTABLE**)
+- [x] Auto-sync for remote backup accounts
+- [x] Refactor with Kotlin
+- [x] Quotes preview in setting page
+- [x] Optimize collections and histories pages.
+- [x] Redesign with Material You.
 
-> In case you have developed the module together with somebody else, but they don't have a GitHub account. You can write their names and links into the file.
-> All `Outside Collaborators` in this repository will be added by default.
+## License
 
-### Visibility
-
-If you want to hide the module from the repository temporarily, you can change repository to private in Repository Settings.
-
-If you just want the module not to be displayed in the website page or manager, create a [HIDE](HIDE) file.
-
-## Versions
-
-We use GitHub releases as a version update.
-
-### Version name *
-
-The Release Title.
-
-> This is the human-readable version number.
-
-### Version code *
-
-The Release Tag.
-
-> The technical version, used when checking for updates. Newer versions always need to have a higher number than previous versions.
-
-### Release type *
-
-`This is a pre-release` check box.
-
-experimental has been merged with beta
-
-|  Type  |  Type  |
-|  ----  |  ----  |
-| Stable (low risk of bugs)  | Release |
-| Beta (some bugs to be expected)  | Pre-release |
-| Experimental (high risk of bugs)  | Pre-release |
-
-> Classification how risky it is for users to install this version. By default, only stable versions will be shown.
-
-### Changes
-
-The Release Description.
-
-> A list of changes (new features, bugfixes) in this particular version.
-
-## Module Activation Scope
-
-Json array in [SCOPE](SCOPE) file.
-
-This recommended configuration is used when the module does not provide its own scope.
-
-Example: 
-```json
-["android", "com.android.settings"]
-```
+Distributed under the [MIT License](http://opensource.org/licenses/MIT).
