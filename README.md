@@ -50,6 +50,7 @@ the download service.
 - [Freakuotes (Español)](https://freakuotes.com/)
 - [Natune.net (Deutsch)](https://natune.net/zitate/)
 - [BrainyQuote (English)](https://www.brainyquote.com/)
+- [Fortune-mod (multilingual)](https://github.com/shlomif/fortune-mod/)
 - Custom (write your own!)
 - Collections (your favorites)
 
@@ -58,10 +59,11 @@ the download service.
 ### Todo
 
 - [ ] Add widget for launcher.
+- [ ] Add support for custom importing of fortune cookies.
 
 ### In Progress
 
-- [ ] Add support for fortune-mod.
+- [ ] Add support for Chinese.
 
 ### Done
 
@@ -77,6 +79,8 @@ the download service.
 - [x] Optimize collections and histories pages.
 - [x] Redesign with Material You.
 - [x] Add CSV export format support.
+- [x] Add support for [fortune-mod](https://github.com/shlomif/fortune-mod/).
+- [x] Add support for line spacing configuration between text and source.
 
 ## License
 
