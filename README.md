@@ -65,6 +65,7 @@ the download service.
 
 - [ ] Optimize lockscreen layout.
 - [ ] Optimize style for Android S.
+- [ ] Add support for custom fonts.
 
 ### Done
 
