@@ -15,12 +15,13 @@ archived.
 - Import/Export collections in .db or .csv format on local storage.
 - Backup/Restore collections on Google Drive.
 - Displays quotes on the AmbientDisplay page of *OnePlus7Pro OOS11* (**ALPHA**)
+- Imports custom fonts ([Magisk module](https://github.com/Yubyf/QuoteLockX-CustomFonts) needed).
 
 ## Screenshots
 
-| &nbsp;&nbsp;&nbsp;&nbsp;Lockscreen&nbsp;&nbsp;&nbsp;&nbsp; | AmbientDisplay |
+| &nbsp;&nbsp;Lockscreen&nbsp;&nbsp; | CustomFonts |
 | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/com.yubyf.quotelockx/main/screenshots/lockscreen.png" title="Lockscreen" width="360px" /> | <img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/com.yubyf.quotelockx/main/screenshots/ambient_display.png" title="AmbientDisplay" width="360px" /> |
+| <img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/com.yubyf.quotelockx/main/screenshots/lockscreen.png" title="Lockscreen" width="360px" /> | <img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/com.yubyf.quotelockx/main/screenshots/custom_fonts.png" title="CustomFonts" width="360px" /> |
 
 Long press on the quotes to show refresh and collect buttons:
 
@@ -83,6 +84,7 @@ the download service.
 - [x] Add support for [fortune-mod](https://github.com/shlomif/fortune-mod/).
 - [x] Add support for line spacing configuration between text and source.
 - [x] Add support for Chinese.
+- [x] Add support for custom fonts.
 
 ## License
 
