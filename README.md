@@ -64,8 +64,7 @@ the download service.
 
 ### In Progress
 
-- [ ] Optimize lockscreen layout.
-- [ ] Optimize style for Android S.
+- [ ] Refactor the settings page.
 
 ### Done
 
@@ -85,6 +84,8 @@ the download service.
 - [x] Add support for line spacing configuration between text and source.
 - [x] Add support for Chinese.
 - [x] Add support for custom fonts.
+- [x] Optimize lockscreen layout.
+- [x] Optimize style for Android S(dynamic colors).
 
 ## License
 
