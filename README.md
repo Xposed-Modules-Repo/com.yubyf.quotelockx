@@ -1,6 +1,6 @@
 # QuoteLockX
 
-![Screenshot](screenshots/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/Xposed-Modules-Repo/com.yubyf.quotelockx/main/screenshots/screenshot.png)
 
 Displays quotes on your lockscreen, because why not.
 
